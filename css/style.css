@@ -11,12 +11,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(253, 0, 0);
+    background-color: rgb(0, 0, 0);
     color: white;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 60px;
-    padding-right: 60px
+    padding: 10px 60px;
 }
 
 .logo img{
@@ -26,18 +23,18 @@ body{
 .right-side{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .left-side{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 35px;
 }
 
 .menu{
     display: flex;
-    gap: 40px;
+    gap: 25px;
 }
 .menu a{
     text-decoration: none;
@@ -51,11 +48,28 @@ body{
     gap: 14px;
     background-color: black;
     border: 1px solid #444;
-    padding: 6px 10px;
+    padding: 10px 10px;
     border-radius: 4px;
+    cursor: pointer;
 }
 .search-bar input{
     border: none;
     outline: none;
     background-color: transparent;
+    width: 100px;
+    font-size: 13px;
+    color: white;
+    padding: 5px 2px;
+    cursor: pointer;
+}
+.search-bar input::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.search-bar i{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 10px;
 }
