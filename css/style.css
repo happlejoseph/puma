@@ -73,6 +73,9 @@ body{
     font-size: 17px;
     margin-left: 10px;
 }
+.search-bar:hover{
+    border-color: white;
+}
 
 .hero{
     height: 100vh;
