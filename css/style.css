@@ -18,6 +18,9 @@ a{
     background-color: #191919;
     color: white;
     padding: 10px 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 .logo img{
@@ -382,6 +385,7 @@ a{
 
 .product-slider-card{
     min-width: 340px;
+    cursor: pointer;
 }
 
 .product-slider-card img{
