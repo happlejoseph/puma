@@ -477,9 +477,10 @@ a{
 }
 .nitro-shoes-card span{
     position: absolute;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
+    white-space: nowrap;
     bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
@@ -501,7 +502,7 @@ a{
     text-align: center;
     align-items: center;
     margin-top: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .classic-shoes-list{
@@ -556,3 +557,77 @@ a{
     background: #000;
     opacity: 0.6;
 } */
+
+.banner-type4{
+    height: 80vh;
+    background-image: url('../images/a2407089b1198af5a58c82c656444e7047a8bc70.avif');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.banner-type4-content{
+    color: white;
+    margin-left: auto;
+    margin-right: 0;
+    max-width: 600px;
+    text-align: right;
+    font-size: 25px;
+}
+.banner-type4-content h2{
+    margin-bottom: 10px;
+}
+
+.banner-type4-buttons{
+    display: flex;
+    /* gap: 20px; */
+    margin-top: 5%;
+    justify-content: flex-end;
+}
+.btn{
+    padding: 12px 25px;
+    background-color: white;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-type5{
+    height: 70vh;
+    background-image: url('../images/23d707874b827278ca0a24f858265beee21e5393.avif');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.banner-type5-content{
+    color: white;
+    margin-right: auto;
+    margin-left: 0;
+    max-width: 600px;
+    text-align: start;
+    font-size: 25px;
+}
+.banner-type5-content h2{
+    margin-bottom: 10px;
+}
+
+.banner-type5-buttons{
+    display: flex;
+    /* gap: 20px; */
+    margin-top: 5%;
+    justify-content: flex-start;
+}
+.btn{
+    padding: 12px 25px;
+    background-color: white;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
