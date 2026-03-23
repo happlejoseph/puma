@@ -716,3 +716,69 @@ a{
     border: none;
     cursor: pointer;
 }
+
+.cutting-edge-shoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.cutting-edge-shoes-list{
+    display: flex;
+    gap: 10px;
+    max-width: 1455px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cutting-edge-shoes-card{
+    max-width: 500px;
+    flex: 1 1 300px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.cutting-edge-shoes-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cutting-edge-shoes-content{
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.cutting-edge-shoes-content h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.cutting-edge-shoes-content p{
+    font-size: medium;
+    font-weight: lighter;
+}
+.cutting-edge-shoes-card span{
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cutting-edge-shoes-card::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.4),
+    rgba(255,255,255,0.1));
+}
