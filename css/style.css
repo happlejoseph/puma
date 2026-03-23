@@ -432,3 +432,44 @@ a{
     background: #555;
     border-radius: 10px;
 }
+
+.nitro-shoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nitro-shoes-list{
+    display: flex;
+    gap: 10px;
+    max-width: 1455px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nitro-shoes-card{
+    max-width: 500px;
+    flex: 1 1 300px;
+}
+
+.nitro-shoes-card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.nitro-shoes-content{
+    padding-bottom: 40px;
+}
+.nitro-shoes-content h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.nitro-shoes-content p{
+    font-size: medium;
+    font-weight: lighter;
+}
