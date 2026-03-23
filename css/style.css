@@ -782,3 +782,70 @@ a{
     rgba(0,0,0,0.4),
     rgba(255,255,255,0.1));
 }
+
+
+.sports{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.sports-list{
+    display: flex;
+    gap: 10px;
+    max-width: 1455px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.sports-card{
+    max-width: 500px;
+    flex: 1 1 300px;
+    aspect-ratio: 2 / 3;
+    overflow: hidden;
+    position: relative;
+}
+
+.sports-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sports-content{
+    max-width: 1455px;
+    width: 100%;
+    margin: 0 auto 30px;
+    padding-top: 20px;
+    text-align: left;
+}
+.sports-content h2{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sports-content p{
+    font-size: medium;
+    font-weight: lighter;
+}
+.sports-card span{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    bottom: 20px;
+    left: 10%;
+    /* transform: translateX(-50%); */
+}
+
+/* .sports-card::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.4),
+    rgba(255,255,255,0.1));
+} */
