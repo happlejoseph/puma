@@ -678,3 +678,41 @@ a{
     background-color: #444;
     transition: background-color 0.3s ease;
 }
+
+.banner-type7{
+    height: 70vh;
+    background-image: url('../images/03c54bbf75d38cc8465ef81b4a99bdd23b0ffc42.avif');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    margin-bottom: 30px;
+}
+
+.banner-type7-content{
+    color: white;
+    margin-left: auto;
+    margin-right: 0;
+    max-width: 600px;
+    text-align: right;
+    font-size: 25px;
+}
+.banner-type7-content h2{
+    margin-bottom: 10px;
+}
+
+.banner-type7-buttons{
+    display: flex;
+    /* gap: 20px; */
+    margin-top: 5%;
+    justify-content: flex-end;
+}
+.btn{
+    padding: 12px 25px;
+    background-color: white;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
