@@ -27,6 +27,7 @@ a{
 
 .logo img{
     width: 50px;
+    filter: brightness(0) invert(1);
 }
 
 .right-side{
@@ -893,7 +894,8 @@ a{
 .price-box {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
     gap: 5px;
 }
 .new-price{
@@ -940,4 +942,90 @@ a{
 .footer{
     background-color: #000000;
     margin-top: 5%;
+    height: 50vh;
+}
+
+.footer-contaniner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.footer-column ul li a {
+    color: #ccc;
+    font-size: 13px;
+}
+.footer-column ul li a:hover {
+    color: #ffffff;
+    font-size: 13px;
+}
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 40px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+    background-color: black;
+    border-radius: 50px;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+.social-icons i:hover{
+    background-color: #4e4e4e;
+    border-radius: 50px;
+}
+
+.explore-title {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+.app-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+
+.app-box {
+    border: 1px solid #555;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 20%;
+    height: 10%;
+}
+.app-box:hover {
+    border-color: white;
+}
+
+.no-title{
+    padding-top: 40px;
+}
+
+.footer-line {
+    max-width: 1600px;
+    height: 1px;
+    border-bottom: 1px solid #acacac;
+    margin: 0 auto;
+    padding-top: 20px;
 }
