@@ -936,3 +936,8 @@ a{
     background: #555;
     border-radius: 10px;
 }
+
+.footer{
+    background-color: #000000;
+    margin-top: 5%;
+}
