@@ -308,7 +308,8 @@ a{
 }
 
 .latest-product-item{
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: 350px;
     background-color: #000000;
     display: flex;
@@ -565,7 +566,7 @@ a{
     background-size: cover;
     display: flex;
     align-items: center;
-    padding: 0 80px;
+    padding: 0 5%;
 }
 
 .banner-type4-content{
@@ -602,7 +603,7 @@ a{
     background-size: cover;
     display: flex;
     align-items: center;
-    padding: 0 80px;
+    padding: 0 5%;
     margin-bottom: 30px;
 }
 
@@ -686,7 +687,7 @@ a{
     background-size: cover;
     display: flex;
     align-items: center;
-    padding: 0 80px;
+    padding: 0 5%;
     margin-bottom: 30px;
 }
 
@@ -939,23 +940,25 @@ a{
     border-radius: 10px;
 }
 
-.footer{
+.footer {
     background-color: #000000;
     margin-top: 5%;
-    height: 50vh;
+    padding: 40px 20px;
 }
 
-.footer-contaniner{
+.footer-contaniner {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    justify-content: center;
+    margin: auto;
     gap: 40px;
-    max-width: 1400px;
-    margin: 0 auto;
+    max-width: 1400px
 }
 
 .footer-column ul li a {
     color: #ccc;
     font-size: 13px;
+    list-style: none
 }
 .footer-column ul li a:hover {
     color: #ffffff;
@@ -963,6 +966,10 @@ a{
 }
 .footer-column ul li {
     margin-bottom: 10px;
+}
+.footer-column ul {
+    list-style: none;   /* removes bullets */
+    padding: 0;
 }
 
 .footer-column h3 {
@@ -974,9 +981,10 @@ a{
 
 .social-icons {
     display: flex;
-    gap: 40px;
+    gap: 10px;
     margin-top: 40px;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .social-icons i {
