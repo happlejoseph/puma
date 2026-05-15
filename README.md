@@ -1,4 +1,4 @@
-# Puma Website Clone 
+# Puma Website
 
 This is a front-end clone of the official Puma website built using **HTML** and **CSS**.  
 The project was created for practice purposes to improve my web development skills.
